@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3</title>
+    <link rel="stylesheet" href="./bài-3.css">
+</head>
+<body>
+    <form action="">
+        <div>
+            <div>
+                <label for="username">Username:</label>
+                <input  type="text" name="username" >
+            </div>
+            <div>
+                <label for="Password">Password:</label>
+                <input type="password" name="password" >
+            </div>
+            <div>
+                <label for="City of Employment">City of Employment:</label>
+                <input type="text" name="City of Employment" >
+            </div>
+        </div>
+
+        <div>
+            <label for="web server">Web server:</label>
+            <select name="web server" id="web server">
+                <option value="0">Choose a server</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Please specify your role:</label>
+            <div class="">
+                <label >
+                <div><input type="checkbox" name="role" value="admin">Admin</div>
+                </label>
+
+                <label>
+                <div><input type="checkbox"name="role" value="engineer">Engineer</div>
+                </label>
+
+                <label>
+                <div> <input type="checkbox" name="role" value="manager">Manager</div>
+                </label>
+
+                <label>
+                <div><input type="checkbox" name="role" value="guest">Guest
+                </div>
+                </label>
+            </div>
+        </div>
+
+        <div>
+            <label>Single Sign-on co the following:</label>
+
+            <label >
+                <div>
+                    <input type="checkbox" name="Sign-on" value="mail">Mail
+                </div>
+            </label>
+
+            <label >
+                <div>
+                    <input type="checkbox" name="Sign-on" value="payroll">Payroll
+                </div>
+            </label>
+
+            <label>
+                <div>
+                    <input type="checkbox" name="Sign-on" value="self-service">Self-service
+                </div>
+            </label>
+        </div>
+
+        <div class="login-1">
+            <button>Login</button> 
+            <button>Reset</button>
+        </div>
+        
+    </form>
+</body>
+</html>

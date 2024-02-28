@@ -1,0 +1,9 @@
+img {width: 2.5%;}
+.block{
+    display: flex;   
+    float: left;
+}
+button{
+    background: rgb(7, 134, 151);
+    color: aliceblue;
+}
